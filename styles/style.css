@@ -16,94 +16,110 @@ body {
 }
 
 .album-cards {
-    display: flex;
-    justify-content: center;
+display: flex;
+  justify-content: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
     max-width: 400px;
+}
+
+.card h2 {
+    z-index: 10;
 
 }
 
-.album-img-overlay-container {
-    margin: 0 auto 0 auto;
-    max-height: 410px;
-}
+.album-img-overlay-container {}
 
 .album-img {
-    width: 100%;
     border-radius: 10px 10px 10px 10px;
+    max-width: 400px;
+    z-index: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+
 }
 
 .album-overlay {
-    position: relative;
-    top: -17%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #1ED760;
     padding: 10px;
     text-align: center;
     border-radius: 0 0 10px 10px;
-
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    z-index: 100;
+    align-self: end;
 }
 
 .card-info {
-    display: flex;
-    width: 100%;
-    height: 60px;
     margin: 10px auto 0 auto;
     border: #1ED760 solid 1px;
     box-shadow: #fff 0px 0px 10px;
-    justify-content: space-between;
     border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    grid-column-end: -1;
+    z-index: 100;
+
+    display: grid;
+    grid-template-columns: 1fr  min-content 1fr;
+    grid-template-rows: 1fr;
+    max-height: 75px;
+  width: 100%;
 }
 
 .avatar {
-    position: relative;
     width: 50px;
     height: 50px;
     border: #1ED760 solid 2px;
     border-radius: 10em;
     margin: auto 0 auto 0;
-}
-
-.info-container {
-    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: start;
+    align-self: center;
     margin-left: 10px;
 }
 
-.text-info {
-    text-align: center;
-    margin: auto 0 auto 10px;
-
+.card-info h2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: start;
+      align-self: center;
 }
 
 .card-link {
-    margin: auto 10px auto 0;
     padding: 10px;
     text-decoration: none;
     background-color: #1ED760;
     color: #fff;
     border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: end;
+    align-self: center;
+    margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-    .album-overlay {
-        position: static;
-        top: 0;
-        border-radius: 10px;
-    }
 
-    .album-img-overlay-container {
-        max-height: unset;
-    }
 
-}
-
-.swiper{
+.swiper {
     width: 600px;
     height: 300px;
 }
-
