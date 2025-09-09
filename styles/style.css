@@ -7,7 +7,7 @@
 }
 
 body {
-    /* background-color: #000000; */
+    background-color: #000000;
 }
 
 .title {
@@ -16,16 +16,17 @@ body {
 }
 
 .album-cards {
-display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-
+    margin: 0 auto 0 auto;
     max-width: 400px;
+    background-color: #000000;
 }
 
 .card h2 {
@@ -36,7 +37,6 @@ display: flex;
 .album-img-overlay-container {}
 
 .album-img {
-    border-radius: 10px 10px 10px 10px;
     max-width: 400px;
     z-index: 1;
     grid-row-start: 1;
@@ -64,7 +64,6 @@ display: flex;
     margin: 10px auto 0 auto;
     border: #1ED760 solid 1px;
     box-shadow: #fff 0px 0px 10px;
-    border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: -1;
@@ -72,10 +71,10 @@ display: flex;
     z-index: 100;
 
     display: grid;
-    grid-template-columns: 1fr  min-content 1fr;
+    grid-template-columns: 1fr min-content 1fr;
     grid-template-rows: 1fr;
     max-height: 75px;
-  width: 100%;
+    width: 100%;
 }
 
 .avatar {
@@ -99,7 +98,7 @@ display: flex;
     grid-row-start: 1;
     grid-row-end: 1;
     justify-self: start;
-      align-self: center;
+    align-self: center;
 }
 
 .card-link {
@@ -120,6 +119,13 @@ display: flex;
 
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 490px;
+    background-color: none;
+}
+
+.swiper-slide {
+    border: #1ED760 solid 5px;
+    border-radius: 10px;
+    box-shadow: #1ED760 0px 0px 10px;
 }

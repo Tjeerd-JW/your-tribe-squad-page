@@ -1,21 +1,10 @@
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  // coole effects
+  // cards,
+  effect: "cards",
 
-    // If you want pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+});
 
-    // If you want navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-
-    // If you want a scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
