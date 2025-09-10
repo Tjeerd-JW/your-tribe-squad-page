@@ -1,0 +1,28 @@
+{
+    "people": [
+        {
+            "id": "1",
+            "name": "Tjeerd",
+            "song": "Unshatter",
+            "artist": "Linkin park",
+            "album": "From zero",
+            "cover": "from-zero.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Caitlin",
+            "song": "In your own home",
+            "artist": "Artist",
+            "album": "album",
+            "cover": "in-your-own-home.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Isaac",
+            "song": "Oh my dis side",
+            "artist": "Artist",
+            "album": "album",
+            "cover": "oh-my-dis-side.jpg"
+        }
+    ]
+}
