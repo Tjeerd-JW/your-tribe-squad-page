@@ -11,22 +11,20 @@ var cards = document.getElementById("card-holder");
 var card = '';
 
 for (let x in squad) {
-    card += `<div class="swiper-slide ">
+  card += `<div class="swiper-slide ">
     <div class="card">
         <div class="album-overlay">
-            <h2> <span>` + squad[x].song  +  `</span> - <span>` + squad[x].artist  +  `</span> </h2>
-                         <p>` + squad[x].album  +  `</p>
-                        </div>
-                        <img src="assets/covers/` + squad[x].cover  +  `" alt="album" class="album-img">
-                        <div class="card-info">
-                            <img src="assets/photos/avatar.png" alt="avatar" class="avatar">
-
-                            <h2>Tjeerd</h2>
-
-                            <a href="" target="_blank" class="card-link">Bekijk kaartje</a>
-                        </div>
-                    </div>
-                </div>
+            <h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2>
+                <p>` + squad[x].album + `</p>
+          </div>
+          <img src="assets/covers/` + squad[x].cover + `" alt="album" class="album-img">
+              <div class="card-info">
+                <img src="assets/photos/`+ squad[x].name + `.JPG" alt="" class="avatar">
+                <h2>`+ squad[x].name + `</h2>
+                <a href="`+ squad[x].link + `" target="_blank" class="card-link">Bekijk kaartje</a>
+              </div>
+        </div>
+      </div>
     `
 }
 
