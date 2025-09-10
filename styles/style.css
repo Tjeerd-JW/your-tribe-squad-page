@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+main {
+    gap: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 35px;
+}
+
+.image-container {
+    position: relative;
+
+    .albumcover {
+        border-radius: 30px;
+    }
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(18px);
+    height: 120px;
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px;
+    align-content: center;
+}
+
+.beluister-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15px;
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+}
+
+.album-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 0.3em; */
+
+    h2 {
+        font-size: 3z1.2em;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-weight: 200;
+        margin-top: 15px;
+    }
+}
+
+.person {
+    margin: auto;
+    max-width: 450px;
+    border: 1px solid lightgray;
+}
+
+.person-container {
+    display: flex;
+
+    .avatar {
+        width: 150px;
+    }
+}
