@@ -1,57 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squad page 1i</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isaac's squad page</title>
+    <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <section class="card">
-            <div class="image-container">
-                <a href="https://open.spotify.com/track/2rMFawCg4BW65jzbwztXAV?si=5e9b284cece04085" target="_blank"
-                    class="beluister-btn">Beluister nummer</a>
-                <img class="albumcover" src="assets/albumcover.jpeg" width="100%;" alt="album cover">
-                <div id="overlay">
-                    <div class="album-info">
-                        <h2>Oh My Dis Side (Feat. Quavo)</h2>
-                        <h4>Travis Scott</h4>
-                        <p>Rodeo</p>
-                    </div>
+    <div class="carousel">
+        <button class="prev" aria-label="Vorige slide">&#10094;</button>
+
+        <div class="carousel-track-container">
+            <div class="carousel-track">
+                <!-- SLIDE 1 -->
+                <div class="slide">
+                    <section class="card">
+                        <div class="image-container">
+                            <a class="beluister-btn" href="https://open.spotify.com/track/2rMFawCg4BW65jzbwztXAV"
+                                target="_blank" rel="noopener">Beluister nummer</a>
+                            <img class="albumcover" src="assets/albumcover.jpeg" alt="album cover">
+                            <div class="overlay">
+                                <div class="album-info">
+                                    <h2>Oh My Dis Side (Feat. Quavo)</h2>
+                                    <h4>Travis Scott</h4>
+                                    <p>Rodeo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="person">
+                        <div class="person-container">
+                            <img class="avatar" src="assets/avatar.jpg" alt="Foto van persoon">
+                            <div class="person-info">
+                                <h2>Isaac</h2>
+                                <p>20 jaar</p>
+                            </div>
+                            <a class="bekijk-btn" href="https://isaaceswa.github.io/your-tribe-profile-card/"
+                                target="_blank" rel="noopener">
+                                Bekijken
+                                <div class="icon">
+                                    <svg height="16" width="16" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M16.172 11l-5.364-5.364 
+                             1.414-1.414L20 12l-7.778 7.778
+                             -1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="slide">
+                    <section class="card">
+                        <div class="image-container">
+                            <a class="beluister-btn" href="https://open.spotify.com/track/6gBFPUFcJLzWGx4lenP6h2"
+                                target="_blank" rel="noopener">Beluister nummer</a>
+                            <img class="albumcover" src="assets/albumcover.jpeg" alt="album cover">
+                            <div class="overlay">
+                                <div class="album-info">
+                                    <h2>STARGAZING</h2>
+                                    <h4>Travis Scott</h4>
+                                    <p>Astroworld</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="person">
+                        <div class="person-container">
+                            <img class="avatar" src="assets/avatar.jpg" alt="Foto van persoon">
+                            <div class="person-info">
+                                <h2>Isaac</h2>
+                                <p>20 jaar</p>
+                            </div>
+                            <a class="bekijk-btn" href="https://isaaceswa.github.io/your-tribe-profile-card/"
+                                target="_blank" rel="noopener">
+                                Bekijken
+                                <div class="icon">
+                                    <svg height="16" width="16" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M16.172 11l-5.364-5.364 
+                             1.414-1.414L20 12l-7.778 7.778
+                             -1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- SLIDE 3 -->
+                <div class="slide">
+                    <section class="card">
+                        <div class="image-container">
+                            <a class="beluister-btn" href="https://open.spotify.com/track/6gBFPUFcJLzWGx4lenP6h2"
+                                target="_blank" rel="noopener">Beluister nummer</a>
+                            <img class="albumcover" src="assets/albumcover.jpeg" alt="album cover">
+                            <div class="overlay">
+                                <div class="album-info">
+                                    <h2>BUTTERFLY EFFECT</h2>
+                                    <h4>Travis Scott</h4>
+                                    <p>Astroworld</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="person">
+                        <div class="person-container">
+                            <img class="avatar" src="assets/avatar.jpg" alt="Foto van persoon">
+                            <div class="person-info">
+                                <h2>Isaac</h2>
+                                <p>20 jaar</p>
+                            </div>
+                            <a class="bekijk-btn" href="https://isaaceswa.github.io/your-tribe-profile-card/"
+                                target="_blank" rel="noopener">
+                                Bekijken
+                                <div class="icon">
+                                    <svg height="16" width="16" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M16.172 11l-5.364-5.364 
+                             1.414-1.414L20 12l-7.778 7.778
+                             -1.414-1.414L16.172 13H4v-2z" fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
                 </div>
 
             </div>
-        </section>
+        </div>
 
-        <section class="person">
-            <div class="person-container">
-                <img class="avatar" src="assets/avatar.jpg" width="100%;" alt="Foto van persoon">
-                <div class="person-info">
-                    <h2>Isaac</h2>
-                    <p>20 jaar</p>
-                </div>
-
-                <a class="bekijk-btn" href="https://isaaceswa.github.io/your-tribe-profile-card/" target="_blank">
-                    Bekijken
-                    <div class="icon">
-                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                fill="currentColor"></path>
-                        </svg>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-    </main>
-
+        <button class="next" aria-label="Volgende slide">&#10095;</button>
+    </div>
 
     <script src="scripts/script.js"></script>
 </body>
