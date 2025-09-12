@@ -228,7 +228,16 @@ body {
 }
 
 /* Responsive */
-@media (max-width:768px) {
+@media (max-width:660px) {
+
+    .card {
+        width: 80%;
+    }
+
+    .person {
+        width: 70%;
+    }
+
     .person-container {
         gap: 12px;
         height: 120px;
@@ -237,5 +246,9 @@ body {
     .avatar {
         width: 96px;
         height: 96px;
+    }
+
+    .bekijk-btn {
+        height: 40%;
     }
 }
