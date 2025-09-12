@@ -3,12 +3,11 @@ import locations from "../assets/locations.json" with {type: "json"};
 
 // console.log(locations)
 console.log(people.people)
-var squad = people.people;
+let squad = people.people;
 
 
-var cards = document.getElementById("card-holder");
-
-var card = '';
+let cards = document.getElementById("card-holder");
+let card = '';
 
 for (let x in squad) {
   card += `<div class="swiper-slide ">
