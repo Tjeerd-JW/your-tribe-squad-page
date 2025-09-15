@@ -1,0 +1,103 @@
+{
+    "people": [
+        {
+            "name": "Tjeerd",
+            "song": "Unshatter",
+            "artist": "Linkin park",
+            "album": "From zero",
+            "cover": "from-zero.jpg",
+            "link": "https://tjeerd-jw.github.io/your-tribe-profile-card/",
+            "songlink": ""
+        },
+        {
+            "name": "Caitlin",
+            "song": "In your own home",
+            "artist": "Cleo Sol",
+            "album": "Gold",
+            "cover": "in-your-own-home.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Isaac",
+            "song": "Oh my dis side",
+            "artist": "Travis Scott",
+            "album": "Rodeo",
+            "cover": "oh-my-dis-side.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Kate",
+            "song": "Spillways",
+            "artist": "Ghost",
+            "album": "IMPERA",
+            "cover": "impera.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Ayoub",
+            "song": "De prijs",
+            "artist": "Lijpe",
+            "album": "Dagboek",
+            "cover": "dagboek.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Kayleigh",
+            "song": "Cynical",
+            "artist": "Emei",
+            "album": "Scatterbrain",
+            "cover": "scatterbrain.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Rowan",
+            "song": "Ladybug",
+            "artist": "TWRP",
+            "album": "Digital nightmare",
+            "cover": "digital-nightmare.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Koop",
+            "song": "Natural Mystic",
+            "artist": "Bob Marley",
+            "album": "Exodus",
+            "cover": "exodus.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Roxy",
+            "song": "Peacefield",
+            "artist": "Ghost",
+            "album": "Skeletá",
+            "cover": "skeleta.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Oumaima",
+            "song": "mahboula",
+            "artist": "Manal",
+            "album": "Arabian heartbreak",
+            "cover": "arabian-heartbreak.jpg",
+            "link": "",
+            "songlink": ""
+        },
+        {
+            "name": "Semih",
+            "song": "HALLELUJAH",
+            "artist": "Kanye West",
+            "album": "single",
+            "cover": "kanye-west.jpg",
+            "link": "",
+            "songlink": ""
+        }
+    ]
+}
