@@ -1,10 +1,8 @@
 {
    "locations": [
     {
-        "id": "1",
         "name": "The box",
         "location" : "Theo Thijsen huis",
-        "information" : "Lekker broodje chappen ofzo",
         "image" : "the-box.png"
     },
     {
