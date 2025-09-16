@@ -94,10 +94,19 @@
             "name": "Semih",
             "song": "HALLELUJAH",
             "artist": "Kanye West",
-            "album": "single",
+            "album": "Single",
             "cover": "kanye-west.jpg",
             "link": "",
             "songlink": "https://open.spotify.com/track/2l6UQIQwYpRF0GMfzyB2Xs?si=5cb793c548ee4c06"
+        }
+		     {
+            "name": "Sven",
+            "song": "Best of me",
+            "artist": "NEFFEX",
+            "album": "Single",
+            "cover": "Best-of-me.jpg",
+            "link": "",
+            "songlink": "https://open.spotify.com/track/7zv0i1f8kTy8hPapkm28kz?si=540bd07a5a654067"
         }
     ]
 }
