@@ -68,7 +68,6 @@ body {
     grid-row-end: -1;
     grid-column-end: -1;
     z-index: 100;
-
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     grid-template-rows: 1fr;
@@ -78,7 +77,7 @@ body {
 .avatar {
     width: 100px;
     height: 100px;
-    border: #1ED760 solid 2px;
+    border: #FC3C44 solid 2px;
     border-radius: 10em;
     margin: auto 0 auto 0;
     grid-column-start: 1;
@@ -129,5 +128,5 @@ body {
     box-shadow: #fff 0px 0px 10px;
 }
 .swiper-button{
-    
+    color: #FC3C44;
 }
