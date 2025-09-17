@@ -14,6 +14,7 @@ let cards = document.getElementById("card-holder");
 locationsCards();
 squadCards();
 
+
 // HIER BEGINT SQUAD FUNCTION --------------------------
 function squadCards() {
   let card = '';
@@ -59,7 +60,6 @@ function locationsCards() {
   }
   cards.innerHTML = card
 }
-
 
 
 
