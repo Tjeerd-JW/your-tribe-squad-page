@@ -2,7 +2,6 @@ import people from "../assets/people.json" with {type: "json"};
 import locations from "../assets/locations.json" with {type: "json"};
 
 // console.log(locations)
-console.log(people.people)
 let squad = people.people;
 
 
@@ -10,8 +9,24 @@ let cards = document.getElementById("card-holder");
 squadCards();
 
 
+function randomizer(cards) {
+  // kijk hoeveel kaarten er zijn
+  let currentCards = cards.length;
+  // zolang er nog kaarten zijn blijft hij dit uitvoeren
+  while (currentCards != 0) {
+    // pak een random kaart uit het lijstje
+    let randomCard = Math.floor(Math.random() * currentCards);
+    currentCards--;
+    // en ruil hem om met de huidige kaart
+    [cards[currentCards], cards[randomCard]] = [
+      cards[randomCard], cards[currentCards]];
+  }
+}
+
+
 function squadCards() {
   let card = '';
+  randomizer(squad)
   for (let x in squad) {
     card += `<div class="swiper-slide ">
     <div class="card">
