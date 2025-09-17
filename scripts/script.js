@@ -39,6 +39,8 @@ function squadCards() {
     `
   }
   cards.innerHTML = card
+    swiper();
+
 }
 
 
@@ -62,22 +64,27 @@ function locationsCards() {
     `
   }
   cards.innerHTML = card
+  swiper();
+}
+
+
+function swiper() {
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    // coole effects
+    effect: "cards",
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 2500,
+    }
+  });
 }
 
 
 
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
-  // coole effects
-  effect: "cards",
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  autoplay: {
-    delay: 2500,
-  }
-});
 
