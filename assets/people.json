@@ -7,7 +7,7 @@
             "album": "From zero",
             "cover": "from-zero.jpg",
             "link": "https://tjeerd-jw.github.io/your-tribe-profile-card/",
-            "songlink": ""
+            "songlink": "https://open.spotify.com/track/0D7RVmTlKkmRchqKA4zJht?si=d90aaa6a56834619"
         },
         {
             "name": "Caitlin",
@@ -15,8 +15,8 @@
             "artist": "Cleo Sol",
             "album": "Gold",
             "cover": "in-your-own-home.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://caitlin-fdnd.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/342lDmTXJPrWwYxeCvYc0t?si=95555a8636054a93"
         },
         {
             "name": "Isaac",
@@ -24,8 +24,8 @@
             "artist": "Travis Scott",
             "album": "Rodeo",
             "cover": "oh-my-dis-side.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://isaaceswa.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/2rMFawCg4BW65jzbwztXAV?si=e733ef0d35fb4b2e"
         },
         {
             "name": "Kate",
@@ -33,8 +33,8 @@
             "artist": "Ghost",
             "album": "IMPERA",
             "cover": "impera.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://kitkatisvibing.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/0WHtcCpZnoyFlQg3Mf2cdN?si=229e039d6fc74f46"
         },
         {
             "name": "Ayoub",
@@ -42,8 +42,8 @@
             "artist": "Lijpe",
             "album": "Dagboek",
             "cover": "dagboek.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://ayoubbous.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/5hptdpE5bqoTXufUrkgt18?si=739797e9c2354803"
         },
         {
             "name": "Kayleigh",
@@ -51,8 +51,8 @@
             "artist": "Emei",
             "album": "Scatterbrain",
             "cover": "scatterbrain.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://kayleighhhhh.github.io/profile-card-kayleigh/",
+            "songlink": "https://open.spotify.com/track/0HoXKvtfGFB2CCQvOfNjcd?si=4c2b2cc35f634f0f"
         },
         {
             "name": "Rowan",
@@ -60,8 +60,8 @@
             "artist": "TWRP",
             "album": "Digital nightmare",
             "cover": "digital-nightmare.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://scar055.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/57DpShNuFD8sWAAECa2Vcv?si=99eb9dea3b3748a6"
         },
         {
             "name": "Koop",
@@ -69,8 +69,8 @@
             "artist": "Bob Marley",
             "album": "Exodus",
             "cover": "exodus.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "http://koopreynders.github.io/profile-card/",
+            "songlink": "https://open.spotify.com/track/5uqQyRJV8qLt8zEqnvsBVK?si=ad4cf6e818054ade"
         },
         {
             "name": "Roxy",
@@ -78,8 +78,8 @@
             "artist": "Ghost",
             "album": "Skeletá",
             "cover": "skeleta.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://rox-codelabs.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/6C2I1PHUAzAl7kSvMSe8zj?si=7d0e00c57d384704"
         },
         {
             "name": "Oumaima",
@@ -87,17 +87,26 @@
             "artist": "Manal",
             "album": "Arabian heartbreak",
             "cover": "arabian-heartbreak.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://meemo99.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/3PYf2AVFOi1LvvL9SxjG0V?si=f1efba0d03fb48a1"
         },
         {
             "name": "Semih",
             "song": "HALLELUJAH",
             "artist": "Kanye West",
-            "album": "single",
+            "album": "Single",
             "cover": "kanye-west.jpg",
-            "link": "",
-            "songlink": ""
+            "link": "https://hexterty46.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/2l6UQIQwYpRF0GMfzyB2Xs?si=5cb793c548ee4c06"
+        },
+        {
+            "name": "Sven",
+            "song": "Best of me",
+            "artist": "NEFFEX",
+            "album": "Single",
+            "cover": "kanye-west.jpg",
+            "link": "https://svenvandijk22.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/7zv0i1f8kTy8hPapkm28kz?si=540bd07a5a654067"
         }
     ]
 }

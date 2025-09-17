@@ -7,10 +7,13 @@ let squad = people.people;
 
 
 let cards = document.getElementById("card-holder");
-let card = '';
+squadCards();
 
-for (let x in squad) {
-  card += `<div class="swiper-slide ">
+
+function squadCards() {
+  let card = '';
+  for (let x in squad) {
+    card += `<div class="swiper-slide ">
     <div class="card">
         <div class="album-overlay">
             <h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2>
@@ -25,9 +28,12 @@ for (let x in squad) {
         </div>
       </div>
     `
+  }
+  cards.innerHTML = card
 }
 
-cards.innerHTML = card
+
+
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
