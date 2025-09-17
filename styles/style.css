@@ -62,7 +62,7 @@ body {
 
 .card-info {
     margin: 0 auto 0 auto;
-    border-top: #1ED760 solid 1px;
+    border-top: #FFF solid 1px;
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: -1;
