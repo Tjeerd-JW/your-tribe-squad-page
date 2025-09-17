@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FC3C44;
+    color: #FFF;
     font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
@@ -13,6 +13,7 @@ body {
 .title {
     display: flex;
     justify-content: center;
+	color: #FC3C44;
 }
 
 .album-cards {
