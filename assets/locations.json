@@ -1,12 +1,46 @@
 {
-   "locations": [
-    {
-        "name": "The box",
-        "location" : "Theo Thijsen huis",
-        "image" : "the-box.png"
-    },
-    {
-        
-    }
-]
+    "locations": [
+        {
+            "name": "The box",
+            "location": "Theo Thijsen huis",
+            "description": "",
+            "image": "TheBox.jpg",
+            "link": "https://maps.app.goo.gl/tscTMA1RoszMKpfXA"
+        },
+        {
+            "name": "3D Knit Robotlab",
+            "location": "Benno Premselahuis",
+            "description": "",
+            "image": "3dKnitRobotlab.jpg",
+            "link": "https://maps.app.goo.gl/tqedidk7zE65TLc79"
+        },
+        {
+            "name": "Gym",
+            "location": "Wibautstraat 5b",
+            "description": "",
+            "image": "Gym.jpg",
+            "link": "https://maps.app.goo.gl/pnQexnREwKvwR6Ye7"
+        },
+        {
+            "name": "Observatorium",
+            "location": "Benno Premselahuis",
+            "description": "",
+            "image": "Observatorium.jpg",
+            "link": "https://maps.app.goo.gl/KH4hoj3RMuLcsKzf6"
+        },
+        {
+            "name": "Grote Schaakset",
+            "location": "Jakoba Mulderhuis",
+            "description": "",
+            "image": "Schaakset.jpg",
+            "link": "https://maps.app.goo.gl/1cXsbTLaMgcSjCY17"
+        },
+        {
+            "name": "Winkel",
+            "location": "Wibauthuis",
+            "description": "",
+            "image": "Shop.jpg",
+            "link": "https://maps.app.goo.gl/bRz1RjyNZ1w3PErY9"
+        }
+    ]
 }
