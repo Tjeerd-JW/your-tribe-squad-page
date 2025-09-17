@@ -14,6 +14,9 @@ let cards = document.getElementById("card-holder");
 locationsCards();
 squadCards();
 
+document.getElementById("show-locations").addEventListener("click", locationsCards);
+document.getElementById("show-squad").addEventListener("click", squadCards);
+
 
 // HIER BEGINT SQUAD FUNCTION --------------------------
 function squadCards() {
