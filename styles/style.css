@@ -3,18 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     color: #CEBEB8;
-    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-family: "Tahoma", sans-serif;
 }
 
 body {
-    background-image: radial-gradient(#2F2F2F, Black, #FC3C44 150% );
+    background-image: radial-gradient(#2F2F2F 20%, Black, #FC3C44 140% );
 }
 
 .title {
     display: flex;
     justify-content: center;
 	color: #FC3C44;
-	text-decoration:underline;
 }
 
 .album-cards {
@@ -26,7 +25,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 800  1000 ;
+    margin: 0  0 ;
     max-width: 1000px;
       max-height: 536px;
     background-color: #141414;
@@ -127,8 +126,13 @@ body {
 .swiper-slide {
     border: #F5F4F1 solid 5px;
     border-radius: 20px;
-    box-shadow: #000 0px 0px 10px;
+    box-shadow: #000 0px 0px 17px;
 }
 .swiper-button{
     color: #FC3C44 !important;
 	Margin: -200px; }
+	
+ @media only screen and (max-width: 600px) {
+	 .swiper-button{
+	 display: none;}
+ }
