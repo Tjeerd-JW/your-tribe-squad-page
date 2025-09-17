@@ -5,6 +5,7 @@ import locations from "../assets/locations.json" with {type: "json"};
 // console.log(people.people)
 let squad = people.people;
 let locs = locations.locations;
+let swiperInstance = null;
 console.log(locations.locations);
 
 
@@ -12,7 +13,6 @@ console.log(locations.locations);
 let cards = document.getElementById("card-holder");
 
 locationsCards();
-squadCards();
 
 document.getElementById("show-locations").addEventListener("click", locationsCards);
 document.getElementById("show-squad").addEventListener("click", squadCards);
@@ -39,7 +39,7 @@ function squadCards() {
     `
   }
   cards.innerHTML = card
-    swiper();
+    initSwiper();
 
 }
 
@@ -64,15 +64,20 @@ function locationsCards() {
     `
   }
   cards.innerHTML = card
-  swiper();
+
+  initSwiper();
 }
 
 
-function swiper() {
-  const swiper = new Swiper('.swiper', {
+function initSwiper() {
+  if(swiperInstance){
+    swiperInstance.destroy(true, true)
+  }
+
+  swiperInstance  = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+    loop: true ,
     // coole effects
     effect: "cards",
     navigation: {
@@ -80,7 +85,7 @@ function swiper() {
       prevEl: '.swiper-button-prev',
     },
     autoplay: {
-      delay: 2500,
+      delay: 5000,
     }
   });
 }
