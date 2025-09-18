@@ -7,8 +7,23 @@
 }
 
 body {
-    background-image: radial-gradient(#2F2F2F 20%, Black, #FC3C44 140%);
-    height: 100vh;
+    background: linear-gradient(-45deg, #0d0d0d, #1a1a1a, #262626, #0a0a0a);
+    background-size: 400% 400%;
+    animation: gradient 180s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .title {
@@ -155,7 +170,7 @@ body {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: -1;
-      margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 250px;
 }
 
@@ -225,7 +240,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: min-content max-content;
         gap: 1em;
-          width: 275px;
+        width: 275px;
     }
 
     .avatar {
