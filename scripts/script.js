@@ -90,8 +90,8 @@ function initSwiper() {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // autoplay: {
-    //   delay: 5000,
-    // }
+    autoplay: {
+      delay: 5000,
+    }
   });
 }
