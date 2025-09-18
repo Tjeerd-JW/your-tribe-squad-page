@@ -3,42 +3,42 @@
         {
             "name": "The box",
             "location": "Theo Thijsen huis",
-            "description": "",
+            "description": "The Box is een gezellige plek in het Theo Thijsen huis waar je rustig kunt eten en om even te pauzeren en bij te praten onder het genot van een maaltijd.",
             "image": "TheBox.jpg",
             "link": "https://maps.app.goo.gl/tscTMA1RoszMKpfXA"
         },
         {
             "name": "3D Knit Robotlab",
             "location": "Benno Premselahuis",
-            "description": "",
+            "description": "In het 3D Knit Robotlab kun je zien hoe robots kleding en stoffen maken. Een creatieve plek waar techniek en mode samenkomen.",
             "image": "3dKnitRobotlab.jpg",
             "link": "https://maps.app.goo.gl/tqedidk7zE65TLc79"
         },
         {
             "name": "Gym",
             "location": "Wibautstraat 5b",
-            "description": "",
+            "description": "De Gym is de plek om lekker te sporten en fit te blijven. Handig om tussen de lessen door of na school even je energie kwijt te raken.",
             "image": "Gym.jpg",
             "link": "https://maps.app.goo.gl/pnQexnREwKvwR6Ye7"
         },
         {
             "name": "Observatorium",
             "location": "Benno Premselahuis",
-            "description": "",
+            "description": "Het Observatorium biedt een prachtig uitzicht over de stad, maar je kunt er niet zomaar naar binnen. Alleen met toestemming of tijdens speciale momenten is het te bezoeken.",
             "image": "Observatorium.jpg",
             "link": "https://maps.app.goo.gl/KH4hoj3RMuLcsKzf6"
         },
         {
             "name": "Grote Schaakset",
             "location": "Jakoba Mulderhuis",
-            "description": "",
+            "description": "Bij de Grote Schaakset kun je een potje schaken met levensgrote stukken. Leuk om even te ontspannen of samen met anderen een spel te spelen.",
             "image": "Schaakset.jpg",
             "link": "https://maps.app.goo.gl/1cXsbTLaMgcSjCY17"
         },
         {
             "name": "Winkel",
             "location": "Wibauthuis",
-            "description": "",
+            "description": "In de Winkel vind je allerlei HvA-producten en studiemateriaal. Handig voor boeken, schoolspullen of een item met het HvA-logo.",
             "image": "Shop.jpg",
             "link": "https://maps.app.goo.gl/bRz1RjyNZ1w3PErY9"
         }

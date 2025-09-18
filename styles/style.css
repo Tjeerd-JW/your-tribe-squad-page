@@ -7,13 +7,16 @@
 }
 
 body {
-    background-image: radial-gradient(#2F2F2F 20%, Black, #FC3C44 140% );
+    background-image: radial-gradient(#2F2F2F 20%, Black, #FC3C44 140%);
+    height: 100vh;
 }
 
 .title {
     display: flex;
     justify-content: center;
-	color: #FC3C44;
+    color: #FC3C44;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .album-cards {
@@ -25,10 +28,10 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0  0 ;
-	width: 100%;
+    margin: 0 0;
+    width: 100%;
     max-width: 100%;
-      max-height: 536px;
+    max-height: 536px;
     background-color: #141414;
 }
 
@@ -37,7 +40,8 @@ body {
 
 }
 
-.album-img-overlay-container {}
+
+
 
 .album-img {
     max-width: 400px;
@@ -114,8 +118,64 @@ body {
     justify-self: end;
     align-self: center;
     margin-right: 10px;
+    transition: 0.2s;
+
 }
 
+.card-link:hover {
+    background-color: #971e22;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+/* locatie kaart specefiek */
+.location-card .card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content min-content;
+}
+
+.location-card h2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    text-wrap: nowrap;
+    width: 100%;
+}
+
+.location-card .card-info h2 {
+    margin: 10px auto 0 auto;
+}
+
+.location-card p {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+      margin: 0 auto 0 auto;
+    max-width: 250px;
+}
+
+.location-card .card-link {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: 0;
+    justify-self: start;
+    text-wrap: nowrap;
+
+}
+
+
+.card p {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
 
 
 .swiper {
@@ -129,28 +189,96 @@ body {
     border-radius: 20px;
     box-shadow: #000 0px 0px 17px;
 }
-.swiper-button{
+
+.swiper-button {
     color: #FC3C44 !important;
-	margin: -200px; }
-	
- @media only screen and (max-width: 600px) {
-	 .swiper-button-next,
-	 .swiper-button-prev,
-	 .swiper-button{
-	 display: none !important;}
-	 width: 100%;
-     max-width: 100%;
-     max-height: none;
-     grid-template-rows: auto auto;
- 
- }
- 
- #show-squad,
+    margin: -200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-button {
+        display: none !important;
+    }
+
+    .swiper-slide {
+        width: 275px !important;
+    }
+
+    .swiper {
+        width: 300px !important;
+        height: 470px;
+    }
+
+    .album-overlay {
+        max-width: 275px;
+    }
+
+    .album-img {
+        max-width: 300px;
+    }
+
+    .card-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: min-content max-content;
+        gap: 1em;
+          width: 275px;
+    }
+
+    .avatar {
+        width: 75px;
+        height: 75px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin: 10px;
+    }
+
+    .card-info h2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: start;
+        align-self: center;
+
+
+    }
+
+    .card-link {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        justify-self: center;
+        margin-right: 20px;
+    }
+}
+
+
+
+.buttons {
+    display: flex;
+    width: fit-content;
+    margin: 25px auto 0 auto;
+    gap: 2em;
+}
+
+#show-squad,
 #show-locations {
     background-color: #686868;
-	color: #FFF;
+    color: #FFF;
     border-radius: 5px;
-	position: relative;
-	left: 1080px;
-	top: 550px;
- }
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#show-squad:active,
+#show-locations:active {
+    background-color: #FC3C44;
+}

@@ -42,14 +42,16 @@ function locationsCards() {
     randomizer(locs)
   for (let x in locs) {
     card += `<div class="swiper-slide ">
-    <div class="card">
+    <div class="card location-card">
         <div class="album-overlay">
             <h2> <span>` + locs[x].location + `</span> </h2>
           </div>
           <img src="assets/locations/` + locs[x].image + `" alt="location" class="album-img">
               <div class="card-info">       
                 <h2>`+ locs[x].name + `</h2>
-                <a href="`+ locs[x].link + `" target="_blank" class="card-link">Bekijk locatie</a>
+                <p>
+                ` + locs[x].description + `
+                </p>
               </div>
         </div>
       </div>
@@ -88,8 +90,8 @@ function initSwiper() {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    autoplay: {
-      delay: 5000,
-    }
+    // autoplay: {
+    //   delay: 5000,
+    // }
   });
 }
