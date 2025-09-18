@@ -83,7 +83,7 @@
         },
         {
             "name": "Oumaima",
-            "song": "mahboula",
+            "song": "Mahboula",
             "artist": "Manal",
             "album": "Arabian heartbreak",
             "cover": "arabian-heartbreak.jpg",
@@ -98,15 +98,51 @@
             "cover": "kanye-west.jpg",
             "link": "https://hexterty46.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/2l6UQIQwYpRF0GMfzyB2Xs?si=5cb793c548ee4c06"
-        },
+
 		     {
             "name": "Sven",
             "song": "Best of me",
             "artist": "NEFFEX",
             "album": "Single",
-            "cover": "Best-of-me.jpg",
+            "cover": "kanye-west.jpg",
             "link": "https://svenvandijk22.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/7zv0i1f8kTy8hPapkm28kz?si=540bd07a5a654067"
+        },
+        {
+            "name": "Thomas",
+            "song": "The Scientist",
+            "artist": "Coldplay",
+            "album": "A Rush of Blood to the Head",
+            "cover": "The-Scientist.jpg",
+            "link": "https://thomasseisveld.github.io/profilecard-Thomas/",
+            "songlink": "https://open.spotify.com/track/75JFxkI2RXiU7L9VXzMkle?si=cdcb6899b7c9437e"
+        },
+        {
+            "name": "Khouloud",
+            "song": "Hampstead",
+            "artist": "Ariana Grande",
+            "album": "Eternal Sunshine",
+            "cover": "eternal-sunshine.jpg",
+            "link": "https://khouam.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/4D2DFuqs2PwLiHbcf6CX47?si=8be600e6b7ad4543"
+        },
+        {
+            "name": "Seb",
+            "song": "Am I dreaming",
+            "artist": "Metro Boomin",
+            "album": "Metro Boomin presents Spider-man: Across the spiderverse",
+            "cover": "am-i-dreaming.jpg",
+            "link": "https://sebbastiaans.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW?si=c5a5847279d44294"
+        },
+        {
+            "name": "Tin",
+            "song": "Still your best",
+            "artist": "GIVEON",
+            "album": "When it's all said and done... Take time",
+            "cover": "still-your-best.jpg",
+            "link": "https://webtins.github.io/your-tribe-profile-card/",
+            "songlink": "https://open.spotify.com/track/6qvtoU0gbkaOcTx6mnVDgV?si=ed08aa8562c048b1"
         }
     ]
 }
