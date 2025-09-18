@@ -26,7 +26,8 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 0  0 ;
-    max-width: 1000px;
+	width: 100%;
+    max-width: 100%;
       max-height: 536px;
     background-color: #141414;
 }
@@ -130,9 +131,14 @@ body {
 }
 .swiper-button{
     color: #FC3C44 !important;
-	Margin: -200px; }
+	margin: -200px; }
 	
  @media only screen and (max-width: 600px) {
-	 .swiper-button{
+	 .swiper-button-next,
+	 .swiper-button-prev{
 	 display: none;}
+	 width: 100%;
+     max-width: 100%;
+     max-height: none;
+     grid-template-rows: auto auto;
  }
