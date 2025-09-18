@@ -6,7 +6,6 @@ let locs = locations.locations;
 let swiperInstance = null;
 let cards = document.getElementById("card-holder");
 
-
 squadCards();
 document.getElementById("show-locations").addEventListener("click", locationsCards);
 document.getElementById("show-squad").addEventListener("click", squadCards);
@@ -73,30 +72,6 @@ function randomizer(cards) {
       cards[randomCard], cards[currentCards]];
   }
 }
-
-// HIER BEGINT LOCATIONS FUNCTION --------------------------
-function locationsCards() {
-  let card = '';
-  for (let x in locs) {
-    card += `<div class="swiper-slide ">
-    <div class="card">
-        <div class="album-overlay">
-            <h2> <span>` + locs[x].location + `</span> </h2>
-          </div>
-          <img src="assets/locations/` + locs[x].image + `" alt="location" class="album-img">
-              <div class="card-info">       
-                <h2>`+ locs[x].name + `</h2>
-                <a href="`+ locs[x].link + `" target="_blank" class="card-link">Bekijk locatie</a>
-              </div>
-        </div>
-      </div>
-    `
-  }
-  cards.innerHTML = card
-
-  initSwiper();
-}
-
 
 function initSwiper() {
   if(swiperInstance){
