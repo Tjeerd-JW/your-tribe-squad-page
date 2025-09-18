@@ -108,7 +108,7 @@
             "link": "https://svenvandijk22.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/7zv0i1f8kTy8hPapkm28kz?si=540bd07a5a654067"
         },
-		  {
+        {
             "name": "Thomas",
             "song": "The Scientist",
             "artist": "Coldplay",
@@ -117,7 +117,7 @@
             "link": "https://thomasseisveld.github.io/profilecard-Thomas/",
             "songlink": "https://open.spotify.com/track/75JFxkI2RXiU7L9VXzMkle?si=cdcb6899b7c9437e"
         },
-		  {
+        {
             "name": "Khouloud",
             "song": "Hampstead",
             "artist": "Ariana Grande",
@@ -126,7 +126,7 @@
             "link": "https://khouam.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/4D2DFuqs2PwLiHbcf6CX47?si=8be600e6b7ad4543"
         },
-		  {
+        {
             "name": "Seb",
             "song": "Am I dreaming",
             "artist": "Metro Boomin",
@@ -135,7 +135,7 @@
             "link": "https://sebbastiaans.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/6Ec5LeRzkisa5KJtwLfOoW?si=c5a5847279d44294"
         },
-		  {
+        {
             "name": "Tin",
             "song": "Still your best",
             "artist": "GIVEON",
@@ -143,6 +143,6 @@
             "cover": "still-your-best.jpg",
             "link": "https://webtins.github.io/your-tribe-profile-card/",
             "songlink": "https://open.spotify.com/track/6qvtoU0gbkaOcTx6mnVDgV?si=ed08aa8562c048b1"
-        },
+        }
     ]
 }
