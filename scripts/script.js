@@ -9,7 +9,6 @@ let cards = document.getElementById("card-holder");
 squadCards();
 document.getElementById("show-locations").addEventListener("click", locationsCards);
 document.getElementById("show-squad").addEventListener("click", squadCards);
-document.getElementById("shuffle").addEventListener("click", shuffle);
 
 // HIER BEGINT SQUAD FUNCTION
 function squadCards() {
