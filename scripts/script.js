@@ -6,11 +6,13 @@ let locs = locations.locations;
 let swiperInstance = null;
 let cards = document.getElementById("card-holder");
 
+
 squadCards();
 document.getElementById("show-locations").addEventListener("click", locationsCards);
 document.getElementById("show-squad").addEventListener("click", squadCards);
 
 // HIER BEGINT SQUAD FUNCTION
+
 function squadCards() {
   let card = '';
     randomizer(squad)
@@ -18,7 +20,7 @@ function squadCards() {
     card += `<div class="swiper-slide ">
     <div class="card">
         <div class="album-overlay">
-            <h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2>
+            <a href="`+ squad[x].songlink + `" target="_blank" class="song-link"><h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2></a>
                 <p>` + squad[x].album + `</p>
           </div>
           <img src="assets/covers/` + squad[x].cover + `" alt="album" class="album-img">
@@ -33,7 +35,6 @@ function squadCards() {
   }
   cards.innerHTML = card
     initSwiper();
-
 }
 
 // HIER BEGINT LOCATIONS FUNCTION
@@ -72,6 +73,30 @@ function randomizer(cards) {
       cards[randomCard], cards[currentCards]];
   }
 }
+
+// HIER BEGINT LOCATIONS FUNCTION --------------------------
+function locationsCards() {
+  let card = '';
+  for (let x in locs) {
+    card += `<div class="swiper-slide ">
+    <div class="card">
+        <div class="album-overlay">
+            <h2> <span>` + locs[x].location + `</span> </h2>
+          </div>
+          <img src="assets/locations/` + locs[x].image + `" alt="location" class="album-img">
+              <div class="card-info">       
+                <h2>`+ locs[x].name + `</h2>
+                <a href="`+ locs[x].link + `" target="_blank" class="card-link">Bekijk locatie</a>
+              </div>
+        </div>
+      </div>
+    `
+  }
+  cards.innerHTML = card
+
+  initSwiper();
+}
+
 
 function initSwiper() {
   if(swiperInstance){
