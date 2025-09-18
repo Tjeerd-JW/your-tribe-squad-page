@@ -11,7 +11,7 @@ document.getElementById("show-locations").addEventListener("click", locationsCar
 document.getElementById("show-squad").addEventListener("click", squadCards);
 document.getElementById("shuffle").addEventListener("click", shuffle);
 
-// HIER BEGINT SQUAD FUNCTION --------------------------
+// HIER BEGINT SQUAD FUNCTION
 function squadCards() {
   let card = '';
     randomizer(squad)
@@ -37,7 +37,7 @@ function squadCards() {
 
 }
 
-// HIER BEGINT LOCATIONS FUNCTION --------------------------
+// HIER BEGINT LOCATIONS FUNCTION
 function locationsCards() {
   let card = '';
     randomizer(locs)
@@ -57,12 +57,7 @@ function locationsCards() {
     `
   }
   cards.innerHTML = card
-
   initSwiper();
-}
-
-function shuffle(){
-
 }
 
 function randomizer(cards) {
