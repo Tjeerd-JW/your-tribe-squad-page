@@ -25,7 +25,7 @@ function squadCards() {
     card += `<div class="swiper-slide ">
     <div class="card">
         <div class="album-overlay">
-            <h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2>
+            <a href="`+ squad[x].songlink + `" target="_blank" class="song-link"><h2> <span>` + squad[x].song + `</span> - <span>` + squad[x].artist + `</span> </h2></a>
                 <p>` + squad[x].album + `</p>
           </div>
           <img src="assets/covers/` + squad[x].cover + `" alt="album" class="album-img">
@@ -73,7 +73,6 @@ function initSwiper() {
   if(swiperInstance){
     swiperInstance.destroy(true, true)
   }
-
   swiperInstance  = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -89,7 +88,4 @@ function initSwiper() {
     }
   });
 }
-
-
-
 
