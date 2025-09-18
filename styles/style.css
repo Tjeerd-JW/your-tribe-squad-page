@@ -142,4 +142,15 @@ body {
      max-width: 100%;
      max-height: none;
      grid-template-rows: auto auto;
+ 
+ }
+ 
+ #show-squad,
+#show-locations {
+    background-color: #686868;
+	color: #FFF;
+    border-radius: 5px;
+	position: relative;
+	left: 1080px;
+	top: 550px;
  }
